@@ -27,7 +27,7 @@ const passport = require('passport')         // this will help in login authenti
 
 //database connection
 
-const url = 'mongodb+srv://admin:admin123@cluster0.ix9ou.mongodb.net/food?retryWrites=true&w=majority'
+const url = 'mongoose url'
 const connectDB = async ()=>{
     try{
 const con = await mongoose.connect(url,{
